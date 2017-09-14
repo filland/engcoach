@@ -87,6 +87,7 @@ public class AddNewContent {
 		}
 
 		combo = new JComboBox<>(sections);
+		panComboBox.setLayout(new GridLayout(2, 2));
 		panComboBox.add(new JLabel("Choose a section to load: "));
 		panComboBox.add(combo);
 		JLabel lab = new JLabel("Content will be loaded into: " + sections[0]);
@@ -125,8 +126,6 @@ public class AddNewContent {
 
 			@Override
 			public void itemStateChanged(ItemEvent itemEvent) {
-
-				t1s[2].setText(filePath);
 				
 				if ((itemEvent.getItemSelectable() == combo)
 						&& (itemEvent.getStateChange() == ItemEvent.SELECTED)) {
@@ -195,9 +194,6 @@ public class AddNewContent {
 			while((line=b.readLine())!=null)
 			{
 				
-			
-				if(counter1==4) o1s[2].setText(line);
-				
 				if(line.startsWith(endLine)) // конец поля считывания
 				{
 					MetkaBeginningEnd=2;
@@ -243,7 +239,7 @@ public class AddNewContent {
 
 		
 		try {
-			BufferedWriter b=new BufferedWriter(new FileWriter("D://Dropbox/java/EngMaterialsForTest1.txt"));
+			BufferedWriter b=new BufferedWriter(new FileWriter(filePath));
 			
 			// walk through the array and add data from each list
 			for (int i = 0; i < lists.length; i++) {
