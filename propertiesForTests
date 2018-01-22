@@ -1,9 +1,9 @@
-#The name of a section was changed
-#Fri Oct 13 16:10:04 MSK 2017
+#A new section was added
+#Thu Oct 12 19:30:26 MSK 2017
 pathToPronunciationDictionary=pronunciation dictionary.txt
 jar=false
 pathToDecodedSounds=decoding of sound acronyms
-section8=Section \!\!\!
+section8=new section
 section7=Questions
 section6=My sentences
 section5=Phrasal verbs

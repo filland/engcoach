@@ -1,4 +1,4 @@
-package com.classes;
+package com.classes.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -10,28 +10,27 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
+import com.classes.Utility;
+import com.classes.model.ContentHandler;
+import com.classes.model.FastTrain;
+
 
 
 public class FastTrainGUI extends JFrame implements ActionListener{
 
-	/*
-	 * 
-	 * add radiobuttons to point what language you
-	 * are going to use. 
-	 * And add combobox to point out a section 
-	 * 
-	 * */
-	
+
 	
 	
 	// variable for a EngCoach JFrame
 	private JFrame engCoachFrame;
-	private FastTrain fastTrain;
+//	private FastTrain fastTrain;
 	
 	
 	
 	
-	private JLabel lab1 = new JLabel("Enter a desirable number of words:");
+//	// do not know what this one means at all 
+//	private JLabel lab1;
+	
 	private JLabel lab2 = new JLabel("123"); // this one is for showing number of words
 	private JTextField randomOutput = new JTextField(25);
 	private JTextField setNumberOfWordsField = new JTextField("50", 5);
@@ -53,11 +52,11 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 	private JPanel panForIntervalCheckBox=new JPanel();
 	
 	
-	ButtonGroup group = new ButtonGroup();
-	JRadioButton engIsOriginalRadBut=new JRadioButton("Eng");
-	JRadioButton rusIsOriginalRadBut=new JRadioButton("Rus");
+	private ButtonGroup group = new ButtonGroup();
+	private JRadioButton engIsOriginalRadBut=new JRadioButton("Eng");
+	private JRadioButton rusIsOriginalRadBut=new JRadioButton("Rus");
 	
-	private String sections []=EngCoachGUI.menuOptions;
+	private String sections []=Utility.getSectionsName();
 	private JComboBox<String> combo=new JComboBox<>(sections);
 	
 	
@@ -67,19 +66,18 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 								"10", "15", "20", "30", "40"};
 	
 	private JComboBox<String> intervalsCombo=new JComboBox<>(intervals);
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	private boolean pausePressed=false;
 	
 	
+	FastTrain fastTrain=new FastTrain(getDestinationField(), 
+			                      getLabelForShowingCurrentInfo());
+	
+	
 	private Font font = new Font("Verdana", 0, 14);
+
+
+
+
 	{
 		//sections=new ArrayList[number of sections];
 		UIManager.put("Label.font", font);
@@ -98,58 +96,23 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 		
 	}
 	
-	public void setFastTrain(FastTrain fastTrain){
-		this.fastTrain=fastTrain;
-	}
+//	public void setFastTrain(FastTrain fastTrain){
+//		this.fastTrain=fastTrain;
+//	}
 	
 	{	
 		setTitle("Hurry up to translate");
 		setDefaultCloseOperation(1);
 		setSize(600,190);
 		setLocationRelativeTo(null);
-		//setResizable(false);
-		
-		//pauseBut.setEnabled(false);
+
 		randomOutput.setHorizontalAlignment(JTextField.CENTER);
 		setNumberOfWordsField.setHorizontalAlignment(JTextField.CENTER);
-		
-		
-		//randomOutput.setFont(customFont);
+
 		randomOutput.setEditable(false);
 
-//		pan.setLayout(null);
-		
 		add(pan);
-		
 		pan.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-
-
-//		lab1.setBounds(75, 10, 250, 30);
-//		lab2.setBounds(75, 10, 250, 30);
-//		randomOutput.setBounds(30, 40, 340, 30);
-//		setNumberOfWordsField.setBounds(150, 40, 80, 30);
-//		startBut.setBounds(150, 80, 80, 30);
-//		stopBut.setBounds(100, 80, 80, 30);
-//		pauseBut.setBounds(200, 80, 100, 30);
-
-		
-		
-//		group.add(engIsOriginalRadBut);
-//		panForSectionAndLang.add(engIsOriginalRadBut);
-//		group.add(rusIsOriginalRadBut);
-//		panForSectionAndLang.add(rusIsOriginalRadBut);
-//		
-//		
-//		
-//		pan.add(lab1);
-//		pan.add(setNumberOfWordsField);
-//		pan.add(startBut);
-//		
-//		pan.add(lab2);
-//		pan.add(randomOutput);
-//		pan.add(pauseBut);
-//		pan.add(stopBut);
-		
 
 		panForRadioButtons.setBorder(BorderFactory.createTitledBorder("Pick a language:"));
 		
@@ -177,8 +140,8 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 		
 		panForFieldsAndLabels.setLayout(new BoxLayout(panForFieldsAndLabels, BoxLayout.PAGE_AXIS));
 		panForFieldsAndLabels.setBorder(BorderFactory.createEmptyBorder(5,0,5,0));
-		lab1.setHorizontalAlignment(JTextField.CENTER);
-		panForFieldsAndLabels.add(lab1);
+		//lab1.setHorizontalAlignment(JTextField.CENTER);
+		//panForFieldsAndLabels.add(lab1);
 		panForFieldsAndLabels.add(setNumberOfWordsField);
 		panForButtons.add(startBut);
 		
@@ -217,16 +180,27 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+	
+		/*
+		 * else if chain was added to avoid multiply creation of 
+		 * the check array (it was done for a while)
+		 * which is performed in the loop at the end of the method
+		 * 
+		 * */
+		
 		
 		if(e.getSource()==startBut){
 						
+			// проверим какой раздел выбран
+			checkSectionsComboBox();
+			
+			
 			// спрячем панель с настройкой языка и секции
 			panForSectionAndLang.setVisible(false);
-			
 			// спрячем поле, в которое вводили кол-во слов для показа
 			setNumberOfWordsField.setVisible(false);		
 			// спрячем этот лейбл
-			lab1.setVisible(false);							
+			//lab1.setVisible(false);							
 			// тут пишем сколько слов будет показано/ сколько уже показано
 			lab2.setVisible(true);							
 			startBut.setVisible(false);							// спрячем кнопку "Start"
@@ -234,12 +208,10 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 			stopBut.setVisible(true);							// покажем кнопку "Stop"
 			
 			
-			//setNumberOfWordsField.setText(" ");
-			
 			// покажем поле, в которое будут выводиться слова
 			randomOutput.setVisible(true);					
-							
-			engCoachFrame.setVisible(false);		// спрячем главный фрейм
+			// спрячем главный фрейм
+			engCoachFrame.setVisible(false);		
 			pack();	
 			
 			
@@ -257,88 +229,89 @@ public class FastTrainGUI extends JFrame implements ActionListener{
 		
 		
 		
-		
-		if (e.getSource()==stopBut) {
-			fastTrain.stopTrain();		// прерываем поток
+		else if (e.getSource() == stopBut) {
+			fastTrain.stopTrain(); // прерываем поток
 			// set the number of unshowed words
-			setNumberOfWordsField.setText(""+fastTrain.getRemainingNumberOfWords());
-			
+			setNumberOfWordsField
+					.setText("" + fastTrain.getRemainingNumberOfWords());
+
 			// покажем панель с настройкой языка и секции
 			panForSectionAndLang.setVisible(true);
-			
-			startBut.setVisible(true);							// покажем кнопку "Start"
-			stopBut.setVisible(false);							// спрячем кнопку "Stop"
+
+			startBut.setVisible(true); // покажем кнопку "Start"
+			stopBut.setVisible(false); // спрячем кнопку "Stop"
 			pauseBut.setVisible(false);
-			lab1.setVisible(true);							// покажем этот лейбл
-			lab2.setVisible(false);							// спрячем
+			//lab1.setVisible(true); // покажем этот лейбл
+			lab2.setVisible(false); // спрячем
 			setNumberOfWordsField.setVisible(true);
-			randomOutput.setVisible(false);							
+			randomOutput.setVisible(false);
 			engCoachFrame.setVisible(true);
 			setVisible(true);
 			pack();
 		}
+
 		
 		
-		
-		
-		if(e.getSource()==pauseBut){
-			if(pausePressed==false){
+		else if (e.getSource() == pauseBut) {
+			if (pausePressed == false) {
 				fastTrain.pauseTrain();
 				pauseBut.setText("Resume");
-				pausePressed=true;
-			}else{
+				pausePressed = true;
+			} else {
 				fastTrain.resumeTrain();
 				pauseBut.setText("Pause");
-				pausePressed=false;
+				pausePressed = false;
+			}
+		}
+
+		// ### Radio Buttons
+
+		else if (e.getSource() == engIsOriginalRadBut) {
+			fastTrain.setOriginalLang(false);
+		}
+
+		else if (e.getSource() == rusIsOriginalRadBut) {
+			fastTrain.setOriginalLang(true);
+		} 
+		
+		else {
+
+			
+			checkSectionsComboBox();	
+			
+		}
+
+	}
+
+	
+	private void checkSectionsComboBox() {
+		
+		System.out.println("\t\t>>Check array was changed");
+		
+		// listen to each comboBox's item by iterating the array sections
+		for (int i = 0; i < sections.length; i++) {
+
+			// if the 'All together' section is selected
+			if (combo.getSelectedItem() == sections[0]) {
+				System.out.println(
+						"Выбран неподдерживаемый в этом цикле раздел");
+
+				// set the 'Words' section
+				fastTrain.setBoundaries(1);
+				break;
+			}
+
+			// handle the other sections
+			if (combo.getSelectedItem() == sections[i]) {
+				System.out.println("Передано число - " + i);
+				fastTrain.setBoundaries(i - 1);
+				break;
 			}
 		}
 		
-		
-		
-		
-		//											### Radio Buttons
-		
-		if(e.getSource()==engIsOriginalRadBut){
-			fastTrain.setOriginalLang(false);
-		}
-		
-		if(e.getSource()==rusIsOriginalRadBut){
-			fastTrain.setOriginalLang(true);
-		}
-		
-		
-		
-		//										 ### ComboBox
-		
-		if (combo.getSelectedItem() == sections[0]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[0], 
-									ContentHandler.boundaries[1]);
-		}
-		if (combo.getSelectedItem() == sections[1]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[1], 
-									ContentHandler.boundaries[2]);
-		}
-		if (combo.getSelectedItem() == sections[2]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[2], 
-									ContentHandler.boundaries[3]);
-		}
-		if (combo.getSelectedItem() == sections[3]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[3], 
-									ContentHandler.boundaries[4]);
-		}
-		if (combo.getSelectedItem() == sections[4]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[4], 
-									ContentHandler.boundaries[5]);
-		}
-		if (combo.getSelectedItem() == sections[5]) {
-			fastTrain.setBoundaries(ContentHandler.boundaries[0], 
-									ContentHandler.boundaries[5]);
-		}
-
-		
-	}	
+	}
 	
-
+	
 	
 	public JTextField getDestinationField() {
 		return randomOutput;

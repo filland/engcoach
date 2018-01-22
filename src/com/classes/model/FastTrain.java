@@ -1,4 +1,4 @@
-package com.classes;
+package com.classes.model;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -58,7 +58,7 @@ public class FastTrain extends ContentHandler implements Runnable{
 	@Override
 	public void run() {
 		
-		readSection();								// it will be given by superclass
+		readSection();
 		
 		
 		for (int i = 1; i < (numberOfWordsToShow+1); i++) {
@@ -68,10 +68,19 @@ public class FastTrain extends ContentHandler implements Runnable{
 				setRemainingNumberOfWords(i);
 				
 				//now shows the first section
-				//
+	
 				
 				readSection();
-				array=getWord();    				// it will be given by superclass
+				
+				if(i==4) {
+					
+					System.out.println("First and second elems of the check array:\n\t"+arrayCheck[0]+"\n\t"+arrayCheck[1]);
+					
+				}
+				
+				System.out.println(i);
+				
+				array=getWord();
 				field.setText(array[0]);
 				
 				Thread.sleep(interval);
@@ -96,12 +105,7 @@ public class FastTrain extends ContentHandler implements Runnable{
 		t.start();	
 	}
 	
-	
-//	// to be deleted
-//	public int setRemainingNumber() {
-//		return numberOfWordsToShow;
-//	}
-	
+
 	
 	public void pauseTrain() {		
 		t.suspend();
@@ -126,9 +130,11 @@ public class FastTrain extends ContentHandler implements Runnable{
 	// these two are neccesary to back the rest number
 	// of words by clicking the STOP button
 	private void setRemainingNumberOfWords(int i){
-		remainingNumberOfWords=getTotalNumberOfWords()-i; }
+		remainingNumberOfWords=getTotalNumberOfWords()-i;
+	}
 	public int getRemainingNumberOfWords(){
-		return remainingNumberOfWords; }
+		return remainingNumberOfWords; 
+	}
 	
 	
 	
