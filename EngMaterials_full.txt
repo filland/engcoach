@@ -1867,6 +1867,12 @@ until now - до сих пор (о времени)
 as a matter of fact - фактически; на самом деле
 in one sitting - за один присест
 
+exception to (the rule)- исключение из (правил)
+to be ahead of smth - опережать что-то
+emphasis on requirements - акцент на требованиях
+digital signing - digital singing
+backward in time - обратно во времени
+
 
 $3
 
@@ -5121,7 +5127,7 @@ A must is something that shouldn't be overlooked or missed - 'Must' это чт�
 Skipping past the worst part - Пропуская мимо худшую часть
 Are you eavesdropping here? - Вы тут подслушиваете?
 Doesn't it sound nice? - Разве это звучит не красиво?
-The right bag is fartherest away of you - Правая сумка находься дальше всего от тебя
+The right bag is fartherest away of you - Правильная сумка находься дальше всего от тебя
 You cannot lock your dog outside meeting someone it doesn't know - Ты не можешь запереть свою собаку снаружи встречаясь с кем_то кого собака не знает
 Good manners are a must - Хорошие манеры обязательны
 She was quite old the boy thought to himself - Мальчик подумал про себя, что она была довольно стара 
@@ -5207,7 +5213,7 @@ We've dealt with the problem - Мы справились с проблемой
 He's very clever at this -  Он очень умен в этом
 I'm new to this - Я в этом новичок
 What a reason did she have to tell you the truth? - Какая у нее была причина говорить тебе правду?
-Is that what she told you? - Это то, что она тебе сказать?
+Is that what she told you? - Это то, что она тебе сказала?
 What if she went looking for me and ended up in the cave? - Что, если она пошла искать меня и оказалась в пещере?
 At fist it brought more people - Сперва это привлекло (не attract) больше людей
 I know you two understand - Я знаю, что вы двое понимаете
@@ -5239,7 +5245,7 @@ You have to sit in the back seat - Ты должен сидеть на задн�
 Did he sit in the back that day? - В тот день он сидел сзади?
 Is there a parent at home i can speak with? - Есть ли дома родители с которыми я могу говорить
 She could be storing it for them - Она могла хранить это для них
-Don't you want to know where the caves are? - Не хочешь ли ты знать где узнать где пещеры?
+Don't you want to know where the caves are? - Не хочешь ли ты знать где пещеры?
 People went in and didn't come back -  Люди входили и не возвращались
 Grandma, i am back - Бабушка, я вернулся
 I had to hold on to the tree - Я должен был держаться за дерево
@@ -5391,7 +5397,7 @@ We might make friends with her - Мы можем подружиться с не�
 This is a chance to get good with she - Есть шанс подружиться с ней 
 We're approaching the lobby - Мы приближаемся к лобби
 Was you able to put off his pain? - Ты мог отложить его боль?
-The things give us a sense of meaning don't necessarily make us happy - 
+The things give us a sense of life don't necessarily make us happy - Вещи, которые дают нам смысл жизни, не обязательно делают нас счастливыми
 Did you put your head down? - ты опустил голову вниз?
 We were talking about the life outside its (hospital) walls - Мы говорили о жизни вне ее(больницы) стен 
 I felt a great relief in the moment i pressed the "send" button - Я почувствовал великое облегчение в момент когда я нажал кнопку 'отправить'
@@ -5525,7 +5531,7 @@ I'm completely vulnerable - Я полностью уязвим
 I don't have any way to defend myself - У меня нет способа защитить себя
 The door is closed on purpose - Дверь закрыта специально (нарочно)
 A handwritten letter is a letter written with a pen - Рукописное письмо это письмо написанное ручкой
-Until i'm given a guy i won't go in there - Пока мне не дали пистолет я не пойду туда внутрь
+Until i'm given a gun i won't go in there - Пока мне не дали пистолет я не пойду туда внутрь
 Hey, you've seen way more horrible places - Эй, ты видал гораздо более ужасные места
 You need to go straight through the forest - Тебе нужно идти прямо сквозь лес
 I ran for a few seconds and now i'm sitting here and panting - Я бежал несколько секунд и сейчас я сижу тут и задыхаюсь (тяжело дышу)
@@ -5542,8 +5548,8 @@ The amount he uses is about the size of a pea - Величина, которую
 It's hard to tell because they're are both good players - Тяжело сказать потому что они оба хорошие игроки
 Hey, get in line, I was next - Эй, встань в очередь, я был следующим
 I am sweating because it's hot here - Я потею потому что тут жарко
-Why do i need to be liked by you? - Зачем я должен чтобы нравиться тебе?
-You put things on my phone? - Ты скинула 
+Why do i need to be liked by you? - Почему я должен понравиться тебе?
+You put things on my phone? - Ты скинула "вещи" на мой телефон?
 If i came in there i'd be like you - Если бы я зашел туда внутрь, то я был бы как ты
 I hope you've been able to calm down - Я надеюсь ты смог успокоиться (h b able)
 Leave the phone airplane mode - Оставь телефон в режиме полета
@@ -5552,7 +5558,7 @@ It's more comfortable than it looks - Комфортнее, чем это выг
 You can't just ignore me! - Вы не можете просто игнорировать меня
 Where do i sit? - Куда/где мне сесть?
 If you don't mind i'll grab this folding chair - Если ты не возражаешь я возьму этот складной стул
-I don't know what the beginning you want me to start from -
+I don't know what the beginning you want me to start from - Я не знаю с какого начала ты хочещь чтобы я начал
 I don't see why you can't give my phone back - Я не понимаю посему вы не можете отдать мне телефон назад
 We're going up? - Мы едем наверх?
 Where? You'll find it out later - Куда? Вы выясните это позже
@@ -5574,6 +5580,204 @@ What's the difference between 'lean' and 'bend'? - Какая разница м�
 Most of us sit hunched over at our desks to get things done - Большинство из нас сидит сгорбившись за нашими столами чтобы сделать что-то
 Once we finished disassembling their work we placed the parts back in the box -  Как только мы закончили разбор их работ мы поместили части обратно в коробку
 They had the same financial incentive - Они имели один и тот же финансовый стимул
+
+
+Adult people also become less concerned about having fun - Взрослые люди также становятся менее обеспокоенными ......
+
+
+I have to cover my face with a cream - Мне приходится мазать лицо кремом 
+I will have to go there in A SEARCH FOR gold - I вынужден буду пойти туда в поиске золота
+What does my story have to do with human motivation? - Что общего моя история имеет с человеческой мотивацией?
+I wondered (pron) what i looked like TO other people - Я желал знать (one word) на что я был похож для других людей (~~~)
+This workplace fits a person like me - Это рабочее место подходит такому человеку как я
+I hated fighting with my body - Я ненавидел сражаться со своим телом
+Stop yelling and get in the car - Прекратите кричать и садитесь в машину
+You should get off the car and show your passport - Вы должны выйти из машины и показать свой паспорт
+Temperature increasing(?) comes along with pressure decreasing (?)- Повышение температуры идет вместе с уменьшением давления
+You are tired of reading - Ты устала от чтения
+She got my phone from a mutual friend - Она "достала" мой телефон у общего друга
+There is a group of developers who are going to quit our company - Группа разрабов собирается увольняться
+I described all these things to her before I left - Я описал ей все эти вещи перед тем как ушел (повествование)
+I've been in a very similar situation - Я побывал (пережил) в очень похожей ситуации
+She wanted to know ahead what they would ask - Она хотела знать наперед что они могли бы спросить
+There is Jane with a bunch of envelopes - Здесь Джейн с несколькими конвертами
+You cannot leave in here - Вы не можете оставить меня тут внутри
+I got this material by nearly getting caught and prisoned for the rest of my life - Я получил эти материалы будучи почти пойманным и посаженным в тюрьму на оставшуюся жизнь
+You are one step away your goal - Ты в шаге от своей цели
+Your dreams are so vague - Твои мечты такие расплывчатые (смутные)
+Are you tired of running? - Ты устал от бега?
+How is your tea? - Как твой чай?
+Did he really want to quit the company? -  Он действительно хотел уволиться из компании?
+I want to quit the company - Я хочу уволиться из компании
+There is a list of issues including relating to navigation and accessibility - Есть список проблем, включающий связанные с координацией и доступностью
+We need a guy to finalize an important work - Нам нужен человек чтобы [finalize] важную работу
+For info about the book go to my site - Для получения информации об этой книге переходите на мой сайт
+Let's suppose that i trust you and you may use my account - Давай предположим, что ты можешь использовать мой акк
+Well, even if we suppose that it's true then you still don't have money - Велл, даже если мы предполагаем, что это правда, то у тебя все еще нет денег
+Usually a team has a customer representative who can answer questions - Обычна у команды есть представитель заказчика, который может ответить на вопросы
+Does it fully meet the requirements outlined in the first step? -  Это полностью соответствует (meet) требованиям, очерченным на первом шаге?
+We need to give Paul or Jack or whoever something that's clearly identifiable as a threat  - Мы должны дать Полу или Джеку, или кому бы то ни было что-то, что ясно определяемо как угроза
+It does not make them less real - Это не делает их менее реальными
+They were walking across the bridge. It was swaying a lot - Они шли через мост. Он "сильно" шатался.
+The bridge sways a lot - Мост сильно качается (вообще)
+They walked into the cave and out the other side - Они вошли в пещеру и вышли с противоположной стороны
+You're really a good singer - Ты действительно хороший певец
+My son married the right girl - Мой сын женился на правильной женщине
+I've seen my sister for the first time in two years - Я увидел свою сестру в первый раз за два года
+Something fell out of this book - Что выпало из этой книги   
+We were told that we will have a joint work next month - Нам сказали, что у нас будет общая работа в следующем месяце 
+Enter the building and find the key - Войди в здание и найди ключ
+More likely you won't be allow to enter the building - Более вероятно, что тебе на разрешат войти в здание 
+Turn your t_shirt inside out - Выверни майку наизнанку
+He hasn't even overcome the threshold - Я даже же преодолел порог (пороговую величину)
+The origin of the second element is unknown - Происхождение второго элемента неизвестно
+I'm running out of gas - У меня заканчивается(кончается) бензин
+Have you noticed that the gas is about to run out - Ты заметил, что бензин вот-вот закончиться
+The gas is running out. We need to refuel - Бензин заканчивается. Нам нужно заправиться
+What happens as you get used to it? - Что происходит когда ты привыкаешь к этому
+How else do you want me to waste my time? - Как еще ты хочешь чтобы я "профукал" (потратил в пустую) свое время
+I struggled - Я сражался (не fight)
+I collected this data on the last week - Я собрал эти данные на прошлой неделе
+Tickets should be booked at least 10 days in advance - Билеты нужно бронировать как минимум за 10 дней
+Be precise, the recipient of mail has to understand it in the shortest possible time - Будь точным, получатель письма должен понять его в кратчайшее время 
+You need to provide an answer to every question addressed to you - Ты должен предоставить ответ на каждый вопрос, адресованный тебе 
+Choose properly whom addresses the mail to - Хорошенько выберите кому адресовать письмо
+He was preaching to a small group of people - Он читал проповедь маленькой группе людей
+Don't try to preach to me - Не пытайся читать мне проповедь
+Compare actual result with the result you meant to get - Сравни актуальный результат с результатом, который ты хотел получить (mean) 
+We are ahead of the schedule - Мы опережаем расписание
+Did you know that you were ahead of the schedule? - Ты знаешь, что мы опережаем расписание? 
+This is an exact copy - Это точная копия
+If you have an exact copy then take a picture and drop it to me - Если у тебя есть точная копия, то сделай фото и сбрось его мне
+There are so many ambiguities in this sentence - В этом предложении столько двусмысленностей (?) 
+None of them are at home yet - Никто из них пока не дома
+Why they haven't used her before now? - Почему они не использовали ее до сих пор?
+The system is capable of almost everything - Система способна почти на все
+What else is the system capable of? - На что еще способна система 
+I can do this all day - Я могу делать это весь день
+There is someone in the back sit inside that car - Кто_то на заднем сидении машины 
+First four available cabs pass by - Первые четыре такси проезжают мимо 
+Why did you stop halfway ? - Почему ты остановился на полпути?
+I paused the process - Я приостановила (пост на паузу) процесс
+You threatened her once - Ты угрожала ей однажды
+I was arguing the opposite - Я доказывал обратное
+She was arguing that we have freedom of speech and i was arguing the opposite - 
+They'll eat us alive - Они сожрут на живьем
+I've said it before and I'll say it again - Я сказал это прежде и я скажу это еще раз
+I thought that you want (to wait as long as possible) ? - Я думал, что ты хочешь подождать подольше.
+They have to be super intense to fit what we've seen - Они  должны быть супер интенсивными чтобы подходить под то, что мы увидели
+I forgot the exact age - Я забыл точный возраст
+Don't get cocky - Не дерзи
+Can you say the alphabet BACKWARD? - Ты можешь сказать алфавит наоборот(с конца в начало)?
+This sounds promising - Это звучит обнадеживающе
+It was breathtaking - Это было захватывающе
+The water is too cold to swim even in the summer - Вода слишком холодная чтобы плавать даже летом
+We came home and passed out - Мы пришли домой и "отрубились"
+It's hard to judge the distance - Тяжело судить о расстоянии
+Doesn't matter where they come from and who they are - Не важно откуда они родом и кто они такие
+
+It will be of interest to people (?) - 
+
+Researches can be carried out on animals - Исследования могут быть проведены на животных
+Do you know any courses on Python? - Ты знаешь какие-нибудь курсы по python'у?
+This is equivalent to following footsteps of great people left behind them - Это эквивалентно следующим шагам великих людей, оставленных позади них
+How dare you? - Как ты смеешь?
+I couldn't get to sleep that day - Я не мог заснуть (get to sleep) в тот день
+I have spent here a week and i've tired - Спустя неделю пребывания тут я устал
+It might rain for an hour or two and then it stops - Втечение часа или двух может(вероятность) идти дождь и, затем, прекратиться
+My legs do not fit in this seat - Мои ноги не совсем помещаются в это место (сиденье)
+Missed - Промахнулся
+The robot named after the author - Робот назван в честь автора
+You asked me about her upstairs - Ты спрашивал меня о ней наверху (на верхнем этаже)
+Does anyone guess what that is? - Кто-нибудь догадывается что это?
+I seemed it was a statue - Кажется, это была статуя
+I guess that rope was older than it looked - Я догадываюсь, что веревка была стариннее, чем она казалась
+There is a stone sticking up you can attach the rope to - Здесь выпирающий камень к которому ты можешь прикрепить веревку
+Your journey is only beginning - Твое путешествие только начинается
+It was getting dark and suddenly it's got a lot lighter - Темнело и неожиданно стало гораздо светлее
+They were sentenced to 30 years - Они были приговорены к 30-и годам
+I'm awake now and she's asleep - Я не сплю (бодрствую) и она спит (adj.)
+My hands are busy - Мои руки заняты
+The dog is behind the trees - Собака за деревьями
+Quit whining [waɪning] - Брось ныть
+I am glad i did not tear this up - Я рад, что не разорвал это
+Put it back where you found it - Положи это обратно туда, где ты это нашел
+I'm pretty sure we did it at the end of the last episode - Я сильно уверен, что мы сделали это в конце прошлого эпизода
+It's not worth it to get wet - Это не стоит того чтобы вымокнуть 
+Where is the key to his car? - Где ключ к этой машине?
+This is the key to his house - Это ключ к его дому
+You need at least 7 hours of sleep - Тебе нужно как минимум 7-мь часов сна
+It's got dark in here - Здесь внутри стало темно 
+It's not so good to spend too much time alone - Это не очень хорошо проводить слишком много времени в одиночестве
+What's in the box? - Что в коробке?
+We'll find your friend on the way - Мы найдем твоего друга по пути
+I want to show that they are easy to understand - Я хочу показать, что их легко понять
+He answered me nothing - Он мне ничего не ответил
+This makes the weather seems more extreme - Это заставляет погоду казаться более экстремальной
+What makes the polar ice melt? - Что заставляет полярный лед таять?
+This is inherent TO capitalism - Это присуще капитализма 
+The spirit of capitalism is inherent to Protestant religious values - Дух капитализма присущ протестантским религиозным ценностям 
+He remained prominent in the community - Он остался "выступающим"(заметным) в сообществе
+He IS too often SEEN as his supporter - Его слишком часто рассматривают как его сторонника
+It's not necessary - Это не обязательно
+No one would ever suspect that your manners rehearsed - Никто никогда не мог бы заподозрить что ваши манеры отрепетированы
+I doubt we'll ever speak again - Я сомневаюсь, что мы когда либо будем говорить снова
+A miserable half? -  Жалкая половина? 
+Do you have some money on you? - У тебя есть при себе какие-либо деньги?
+I bet he won't have any money on (with) him - Спорим, у него не будет при себе никаких денег
+I have no money on (with) me - Я меня с собой нет денег
+He claimed that he'd been fooled - Он заявил, что был одурачен
+So called refugees want to get to the city - Так называемые беженцы хотят добраться до города
+Device does not match the description - Устройство не соответствует описанию
+He nodded to her - Он кивнул ей
+What do you have for me today? - Что у тебя есть для меня сегодня?
+It's inexcusable - Это непростительно
+They get scared on a sight of me - Они испугались при виде меня
+He can barely stand at a sight of me - Он едва может удержаться при виде меня
+What was your brother's name? - Какое у твоего брата было имя?
+So, what am i looking for? - И так, что я ищу?
+We've uploaded some harmless materials on Jack's phone - Мы загрузили безвредные материалы на телефон Джека
+Play the file for everyone - воспроизведи файл для всех там
+It's smart of you to keep doing this - Это умно с твоей стороны продолжать делать это
+Their condition doesn't get bad - Их состояние не ухудшается
+The wind blew the candle out - Ветер задул спичку
+Now I am very stinky - Сейчас я очень вонючий
+I accidentally put it in there - Я случайно положил его туда внутрь 
+What about the woman whose voice i heard yesterday? - Что на счет женщины, чей голос я слышал вчера?
+Did you look from the right angle? - Ты смотришь под правильного угла?
+You might find hidden things if you look from the right angle - Ты можешь найти спрятанные вещи если смотришь под правильным углом
+More and more people install the app for privacy reasons - Все больше и больше людей устанавливает приложение по причинам конфиденциальности 
+I was put into a difficult situation - Меня поставили в трудную ситуацию
+His days were numbered - Его дни были сочтены
+The same he said about Jack - Тоже самое он сказал о Джеке
+Our turn will come - Придет и наша очередь
+She's one of our agents - Она одна из наших агентов
+I haven't heard this since 2007 - Я не слышал это с 2007 года
+I haven't smoke since breakfast - Я не курил с завтрака
+You're making a fool out of me - Ты 'делаешь' из меня дурака
+I was reading assembling(?) instruction sticked to the chair bottom - Я читал "инструкцию по сборке" приклеенную ко дну стула
+We'll use the rocket again if it doesn't blow up on ascent - Мы используем ракету снова если она не взорвется на подъеме
+It will be used on ascent - Это будет использовано на подъеме
+I could make this my house - Я мог бы сделать это моим домом
+What's my weight right now? - Какой у меня вес прямо сейчас?
+I know where I am going - Я знаю куда я иду
+That's where wolfs were hanging out - Вот где 'тусовались' волки
+That long rope has finally tangled - Та длинная веревка в конечном итоге запуталась
+He is suspicious of me - Он относиться ко мне с подозрением (не verb)
+Lots of them are suspicious of you - Множество из них относится ко мне с подозрением
+My fire will be out soon - Мой огонь скоро потухнет
+You haven't left like that cowards - Ты не ушел как те трусы
+I crashed in the mountains nearby - Я разбился в горах поблизости
+I saw a smoke from your chimney - Я видел дым из твоего камина
+I should have knocked first - Я должен был постучать сначала
+Lets go up there and call out something -  Давайте пойдем туда наверх и выкрикнем что-нибудь 
+I think we are heading towards the bridge - Я думаю, что мы направляемся в сторону моста
+Lets go ahead and get started to paint - Давайте двигаться вперед и  начинать рисовать
+He could have ended up there - Он мог оказаться (ended) там
+Cars can serve as shelters - Машины могут служить как убежища
+You might find supplies left inside cars and trucks - Мы можем (%) найти запасы, оставленные внутри машин и грузовиков
+I am not as lost as i thought - Я не так потерян как я думал
+Wolfs like most things in nature are afraid of fire - Волки, как и большинство вещей В ПРИРОДЕ,  бояться огня
 
 
 $9
